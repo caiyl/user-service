@@ -16,10 +16,10 @@ public class DataInitializer implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         // 初始化测试数据
-        userMapper.insert(new User(null, "张三", "zhangsan@example.com", "管理员", "活跃"));
-        userMapper.insert(new User(null, "李四", "lisi@example.com", "用户", "活跃"));
-        userMapper.insert(new User(null, "王五", "wangwu@example.com", "用户", "禁用"));
-        userMapper.insert(new User(null, "赵六", "zhaoliu@example.com", "编辑", "活跃"));
-        userMapper.insert(new User(null, "钱七", "qianqi@example.com", "审核员", "活跃"));
+        userMapper.insert(new User(null, "张三","zhangsan@example.com","18218702391","1",  "管理员", "活跃"));
+        userMapper.insert(new User(null, "李四","lisi@example.com",    "18218702391","1", "用户", "活跃"));
+        userMapper.insert(new User(null, "王五","wangwu@example.com",  "18218702391","1", "用户", "禁用"));
+        userMapper.insert(new User(null, "赵六","zhaoliu@example.com", "18218702391","2",  "编辑", "活跃"));
+        userMapper.insert(new User(null, "钱七","qianqi@example.com",  "18218702391","2", "审核员", "活跃"));
     }
 }

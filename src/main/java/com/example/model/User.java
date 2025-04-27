@@ -17,6 +17,8 @@ public class User {
     
     private String name;
     private String email;
+    private String phone;  // 联系方式
+    private String gender; // 性别
     private String role;
     private String status;
 }
